@@ -115,7 +115,7 @@ header {
 
 .index-text {
     margin: 3rem 0;
-    width: 80%;
+    width: 90%;
     display: flex;
     align-items: center;
     list-style-type: none;
@@ -147,67 +147,6 @@ header {
     font-size: clamp(1rem, 2.5vw + 0.1rem, 1.5rem);
     line-height: 28px;
     margin-bottom: 2rem;
-    text-align: center;
-}
-
-.index-image {
-    width: 40em;
-    height: 42em;
-    display: flex;
-}
-
-.index-image img {
-    margin: 2rem;
-}
-
-.index-buttons {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    gap: 15px;
-}
-
-.login-button button {
-    border: none;
-    width: 210px;
-    height: 81px;
-    background-color: #584AB0;
-    padding: 0.4rem 1rem;
-    border-radius: 8px;
-    cursor: pointer;
-}
-
-.login-button button a {
-    text-decoration: none;
-    font-weight: 800;
-    font-size: 1.5rem;
-    line-height: 37px;
-    color: #EBEDF2;
-    text-align: center;
-}
-
-.singup-button button {
-    border: 3px solid #584AB0;
-    width: 210px;
-    height: 81px;
-    background-color: transparent;
-    padding: 0.4rem 1rem;
-    border-radius: 8px;
-    cursor: pointer;
-    transition: .4s;
-}
-
-.singup-button button:hover {
-    background-color: #584AB0;
-}
-
-.singup-button button a {
-    text-decoration: none;
-    font-weight: 800;
-    font-size: 1.5rem;
-    line-height: 37px;
-    color: #EBEDF2;
     text-align: center;
 }
 
