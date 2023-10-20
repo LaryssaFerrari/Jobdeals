@@ -339,87 +339,107 @@ header {
     text-align: center;
 }
 
-
 /* ---Planos--- */
-.pricing {
+
+.pricing{
     width: 100%;
-    height: 60%;
-    margin-top: 5rem;
+    height: 100%;
+    padding: 50px;
     display: flex;
-    justify-content: center;
     align-items: center;
-    background: linear-gradient(130deg, #000000, #584AB0);
-    background-size: 350%;
-}
-
-.pricing ul {
-    display: block;
-    width: 20rem;
-    height: 33rem;
-    margin: 1.5rem 2rem;
-    background-color: #251F4A;
-    border-radius: 0 0 30px 30px;
-}
-
-.pricing ul li{
-    display: flex;
     justify-content: center;
-    padding: 0.5rem 1rem;
-}
-
-.pricing-title {
-    display: flex;
     color: #EBEDF2;
-    font-weight: 800;
-    font-size: 2rem;
-    margin: 2rem 0;
-}
-
-.pricing-list-check {
-    display: flex;
-    text-decoration: none;
-    color: #EBEDF2;
-    font-size: 1.5rem;
-}
-
-.pricing-list-check span {
-    color: #00FF47;
+    background: linear-gradient(130deg,#000000,#584AB0);
+    background-size: 350%;
 }
 
 .pricing-list-close {
     display: flex;
     text-decoration: none;
     color: #EBEDF233 ;
-    font-size: 1.5rem;
-}
-
-.pricing-list-close span {
-    color: #EBEDF233;
-}
-
-.pricing-button{
-    display: flex;
+    align-items: center;
     justify-content: center;
-    margin-top: 5rem;
 }
 
-.pricing-button button {
-    border: none;
-    width: 210px;
-    height: 81px;
-    background-color: #584AB0;
-    padding: 0.4rem 1rem;
-    border-radius: 8px;
-    cursor: pointer;
-}
-
-.pricing-button button a {
+.pricing-list-check {
+    display: flex;
     text-decoration: none;
-    font-weight: 800;
-    font-size: 1.5rem;
-    line-height: 37px;
     color: #EBEDF2;
+    align-items: center;
+    justify-content: center;
+}
+
+.pricing-list-check span {
+    color: #00FF47;
+}
+
+.pricing .card{
+    width: 300px;
+    height: auto;
+    padding: 10px 0;
+    margin: 1.5rem 2rem;
     text-align: center;
+    background: #251F4A;
+    border-radius: 15px;
+    box-shadow: 2px 5px 15px black;
+    transition: transform 0.3s;
+}
+
+.pricing .card:hover{
+    transform: scale(1.050);
+}
+
+.pricing  .card .card-title{
+    padding: 30px 20px;
+    border-bottom: 2px solid gray;
+}
+
+.pricing .card .card-title h2{
+    font-size: 35px;
+    padding-bottom: 15px;
+    color: yellow;
+}
+
+.pricing .card .card-title p span{
+    font-size: 40px;
+    padding: 0 5px;
+}
+
+.pricing .card .card-content ul{
+    padding: 10px 30px;
+    padding-bottom: 20px;
+}
+
+.pricing .card .card-content ul li{
+    list-style: none;
+    padding: 10px 0;
+}
+
+.pricing .card .card-content ul li i{
+    margin-right: 4px;
+}
+
+.pricing .card .card-content button{
+    width: 120px;
+    padding: 10px 20px;
+    background: #584AB0;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.pricing .card .card-content button:hover{
+    background: #584AB0;
+    letter-spacing: 1.2px;
+}
+
+.pricing .card .card-content a button {
+    text-decoration: none;
+    color: #EBEDF2;
+    font-size: 15px;
 }
 
 /* ---rodapé da pagina--- */
@@ -631,8 +651,6 @@ footer {
     }
     .pricing ul {
         height: 29rem;
-    }
-    .pricing ul {
         width: 16rem;
     }
     .pricing-title {
