@@ -207,8 +207,8 @@ footer {
 @media (max-width: 2000px) and (min-width: 1000px) {
     .index-text h1 {
         font-size: 3.5rem;
-        max-width: 650px;
-        min-width: 650px;
+        max-width: 2000px;
+        min-width: 1000px;
     }
 }
 
