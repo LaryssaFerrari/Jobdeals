@@ -108,8 +108,6 @@ header {
     height: 80%;
     display: flex;
     justify-content: center;
-    flex-direction: column;
-    align-items: center;
     padding: 1rem;
 }
 
@@ -202,6 +200,14 @@ footer {
     font-weight: 400;
 }
 
+@media (max-width: 2000px) and (min-width: 1000px) {
+    .index-text h1 {
+        font-size: 3.5rem;
+        max-width: 650px;
+        min-width: 650px;
+    }
+}
+
 @media (max-width: 1366px) {
     .index-image {
         display: none;
@@ -288,6 +294,13 @@ footer {
         height: 1px;
         background-color: #251F4A;
     }
+
+    .index-text h1 {
+        font-size: 3.5rem;
+        max-width: 650px;
+        min-width: 650px;
+    }
+
 }
 
 @media (max-width: 920px) {
@@ -308,6 +321,12 @@ footer {
     .foot-list {
         margin: 1em 0 2em 0;
     }
+
+    .index-text h1 {
+        font-size: 3.0rem;
+        max-width: 650px;
+        min-width: 650px;
+    } 
 }
 
 @media (max-width: 630px) {
@@ -324,10 +343,11 @@ footer {
         width: 300px;
     }
 
-    .index-text h1 {
-        max-width: 450px;
-        min-width: 450px;
-    }
+  .index-text h1 {
+        font-size: 2.5rem;
+        max-width: 650px;
+        min-width: 650px;
+    } 
 
     .index-buttons {
         flex-direction: column;
@@ -340,7 +360,7 @@ footer {
 
 @media (max-width: 450px) {
     .index-text h1 {
-        font-size: 1.5rem;
+        font-size: 2.0rem;
         max-width: 270px;
         min-width: 270px;
     }
@@ -372,35 +392,4 @@ footer {
         margin-top: 0.3rem;
     }
 
-    .pricing ul {
-        height: 29rem;
-    }
-
-    .pricing ul {
-        width: 16rem;
-    }
-
-    .pricing-title {
-        font-size: 1.8rem;
-    }
-
-    .pricing-list-check {
-        font-size: 1.2rem;
-    }
-
-    .pricing-list-check span {
-        font-size: 1.4rem;
-    }
-
-    .pricing-list-close {
-        font-size: 1.2rem;
-    }
-
-    .pricing-list-close span {
-        font-size: 1.4rem;
-    }
-
-    .pricing-button {
-        margin-top: 2rem;
-    }
 }
