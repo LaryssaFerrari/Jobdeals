@@ -294,11 +294,6 @@ footer {
         min-width: 920px;
     }
 
-    .index-text p {
-        max-width: 1000px;
-        min-width: 800px;
-    }
-
 }
 
 @media (max-width: 920px) {
@@ -324,7 +319,7 @@ footer {
     .index-text h2 {
         font-size: 3.0rem;
         max-width: 920px;
-        min-width: 630px;
+        min-width: 560px;
     }
 
 }
@@ -354,11 +349,6 @@ footer {
     .index-text h2 {
         font-size: 2.0rem;
         max-width: 450px;
-        min-width: 270px;
-    }
-
-    .index-text li p {
-        max-width: 270px;
         min-width: 270px;
     }
 
