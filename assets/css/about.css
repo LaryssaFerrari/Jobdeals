@@ -217,7 +217,7 @@ footer {
 /* ---media query--- */
 
 @media (max-width: 2000px) and (min-width: 1000px) {
-    .index-text h1 .index-text h2{
+    .index-text h1, .index-text h2{
         font-size: 3.5rem;
         max-width: 2000px;
         min-width: 1000px;
@@ -284,7 +284,7 @@ footer {
         display: block;
     }
 
-    .index-text h1 .index-text h2{
+    .index-text h1, .index-text h2{
         font-size: 3.5rem;
         max-width: 1150px;
         min-width: 920px;
@@ -311,7 +311,7 @@ footer {
         margin: 1em 0 2em 0;
     }
 
-    .index-text h1 .index-text h2{
+    .index-text h1, .index-text h2{
         font-size: 3.0rem;
         max-width: 920px;
         min-width: 630px;
@@ -328,7 +328,7 @@ footer {
         padding: 1.5rem 2rem;
     }
 
-    .index-text h1 .index-text h2{
+    .index-text h1, .index-text h2{
         font-size: 2.5rem;
         max-width: 630px;
         min-width: 450px;
@@ -337,7 +337,7 @@ footer {
 }
 
 @media (max-width: 450px) {
-    .index-text h1 .index-text h2{
+    .index-text h1, .index-text h2{
         font-size: 2.0rem;
         max-width: 450px;
         min-width: 270px;
