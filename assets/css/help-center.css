@@ -104,7 +104,7 @@ header {
 /* ---conteudo da pagina--- */
 
 .container {
-    width: 30rem;
+    width: 40rem;
     height: 80%;
     display: flex;
     justify-content: center;
@@ -165,7 +165,7 @@ header {
 
 .index-text h1 {
     font-weight: 500;
-    font-size: clamp(1.6rem, 3.0vw + 0.1rem, 3.5rem);
+    font-size: 3rem;
     line-height: clamp(1.9rem, 8vw + 0.1rem, 4rem);
     margin-bottom: 1rem;
     max-width: 650px;
@@ -179,7 +179,7 @@ header {
 
 .index-text1 h1 {
     font-weight: 500;
-    font-size: clamp(1.6rem, 3.0vw + 0.1rem, 3.5rem);
+    font-size: 3rem;
     line-height: clamp(1.9rem, 8vw + 0.1rem, 4rem);
     margin-bottom: 1rem;
     max-width: 650px;
@@ -188,7 +188,6 @@ header {
     color: #EBEDF2;
     font-weight: 450 x 256;
     margin-bottom: 50px;
-
 }
 
 .content {
@@ -201,7 +200,7 @@ header {
 .accordion_item {
     border-radius: 5px;
     background-color: #EBEDF2;
-    color:#1d1d1d;
+    color: #1d1d1d;
     width: 35rem;
 }
 
@@ -296,6 +295,8 @@ footer {
 /* ---media query--- */
 
 @media (max-width: 1750px) and (min-width: 1150px) {
+
+    .index-text,
     .index-text1 {
         width: 200%;
     }
@@ -368,6 +369,7 @@ footer {
         display: block;
     }
 
+    .index-text,
     .index-text1 {
         width: 200%;
     }
@@ -407,9 +409,14 @@ footer {
         margin: 1em 0 2em 0;
     }
 
-    .index-text,
+    .index-text {
+        width: 150%;
+        height: 50rem;
+    }
+
     .index-text1 {
-        width: 100%;
+        width: 150%;
+        height: 40rem;
     }
 
     .container1 {
@@ -419,7 +426,7 @@ footer {
     .accordion_item {
         flex-direction: column;
         justify-content: center;
-        width: 75%;
+        width: 100%;
     }
 
     .content {
@@ -427,7 +434,7 @@ footer {
     }
 }
 
-@media (max-width: 630px) {
+@media (max-width: 800px) {
     .logo {
         width: 180px;
         height: 36px;
@@ -438,13 +445,18 @@ footer {
     }
 
     .index-text h1 {
-        max-width: 630px;
-        min-width: 450px;
+        max-width: 800px;
+        min-width: 700px;
     }
 
-    .index-text,
+    .index-text {
+        width: 100%;
+        height: 55rem;
+    }
+
     .index-text1 {
         width: 100%;
+        height: 50rem;
     }
 
     .container1 {
@@ -460,12 +472,33 @@ footer {
     .content {
         align-items: center;
     }
-    
+
+}
+
+@media (max-width: 700px) and (minwidth:630px) {
+
+    .index-text {
+        width: 110%;
+        height: 50rem;
+    }
+
+    .index-text1 {
+        width: 110%;
+        height: 45rem;
+    }
+
+    .index-text h1,
+    .index-text1 h1 {
+        max-width: 700px;
+        min-width: 630px;
+    }
 }
 
 @media (max-width: 450px) {
-    .index-text h1 {
-        font-size: 1.5rem;
+
+    .index-text h1,
+    .index-text1 h1 {
+        font-size: 2rem;
         max-width: 270px;
         min-width: 270px;
     }
@@ -474,9 +507,14 @@ footer {
         flex-direction: column;
     }
 
-    .index-text,
+    .index-text {
+        width: 90%;
+        height: 50rem;
+    }
+
     .index-text1 {
         width: 90%;
+        height: 45rem;
     }
 
     .container1 {
