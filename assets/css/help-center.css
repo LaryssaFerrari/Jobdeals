@@ -475,7 +475,7 @@ footer {
 
 }
 
-@media (max-width: 700px) and (minwidth:630px) {
+@media (max-width: 700px) and (min-width:550px) {
 
     .index-text {
         width: 110%;
@@ -490,17 +490,17 @@ footer {
     .index-text h1,
     .index-text1 h1 {
         max-width: 700px;
-        min-width: 630px;
+        min-width: 550px;
     }
 }
 
-@media (max-width: 450px) {
+@media (max-width: 550px) {
 
     .index-text h1,
     .index-text1 h1 {
         font-size: 2rem;
-        max-width: 270px;
-        min-width: 270px;
+        max-width: 550px;
+        min-width: 490px;
     }
 
     .foot-list {
@@ -508,13 +508,13 @@ footer {
     }
 
     .index-text {
-        width: 90%;
-        height: 50rem;
+        width: 80%;
+        height: 57rem;
     }
 
     .index-text1 {
-        width: 90%;
-        height: 45rem;
+        width: 80%;
+        height: 50rem;
     }
 
     .container1 {
@@ -524,10 +524,42 @@ footer {
     .accordion_item {
         flex-direction: column;
         justify-content: center;
-        width: 65%;
+        width: 50%;
     }
 
     .content {
         align-items: center;
+    }
+
+    @media (max-width: 490px) and (min-width:270px) {
+
+        .index-text h1,
+        .index-text1 h1 {
+            font-size: 1.5rem;
+            max-width: 470px;
+            min-width: 270px;
+        }
+
+        .foot-list {
+            flex-direction: column;
+        }
+
+        .index-text {
+            width: 70%;
+            height: 75rem;
+        }
+
+        .index-text1 {
+            width: 70%;
+            height: 80rem;
+        }
+
+
+        .accordion_item {
+            flex-direction: column;
+            justify-content: center;
+            width: 35%;
+        }
+
     }
 }
