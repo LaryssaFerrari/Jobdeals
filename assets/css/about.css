@@ -113,21 +113,17 @@ header {
 
 h2 {
     display: flex;
-    justify-content: center;
     font-weight: 500;
-    font-size: clamp(1.6rem, 3.0vw + 0.1rem, 3.5rem);
+    font-size: 2rem;
     margin-bottom: 1rem;
-    text-align: center;
+    text-align: justify;
     color: #EBEDF2;
-    font-weight: 450 x 256;
-    margin: 1;
 }
 
 .index-text {
     margin: 3rem 0;
     width: 90%;
     display: flex;
-    align-items: center;
     list-style-type: none;
     justify-content: center;
     flex-direction: column;
@@ -140,16 +136,11 @@ h2 {
 
 .index-text h1 {
     font-weight: 500;
-    font-size: clamp(1.6rem, 3.0vw + 0.1rem, 3.5rem);
+    font-size: clamp(2.5rem, 3.0vw + 0.1rem, 3.5rem);
     line-height: clamp(1.9rem, 8vw + 0.1rem, 4rem);
     margin-bottom: 1rem;
-    max-width: 650px;
-    min-width: 650px;
     text-align: center;
     color: #EBEDF2;
-    font-weight: 450 x 256;
-    margin: 1;
-
 }
 
 .index-text p {
@@ -157,7 +148,7 @@ h2 {
     font-size: clamp(1rem, 2.5vw + 0.1rem, 1.5rem);
     line-height: 28px;
     margin-bottom: 2rem;
-    text-align: center;
+    text-align: justify;
 }
 
 /* ---rodapé--- */
@@ -215,17 +206,6 @@ footer {
 }
 
 /* ---media query--- */
-
-@media (max-width: 2000px) and (min-width: 1000px) {
-
-    .index-text h1,
-    .index-text h2 {
-        font-size: 3.5rem;
-        max-width: 2000px;
-        min-width: 1000px;
-    }
-
-}
 
 @media (max-width: 1366px) {
 
@@ -286,14 +266,6 @@ footer {
     .open {
         display: block;
     }
-
-    .index-text h1,
-    .index-text h2 {
-        font-size: 3.5rem;
-        max-width: 1150px;
-        min-width: 920px;
-    }
-
 }
 
 @media (max-width: 920px) {
@@ -314,14 +286,6 @@ footer {
     .foot-list {
         margin: 1em 0 2em 0;
     }
-
-    .index-text h1,
-    .index-text h2 {
-        font-size: 3.0rem;
-        max-width: 920px;
-        min-width: 560px;
-    }
-
 }
 
 @media (max-width: 630px) {
@@ -334,23 +298,12 @@ footer {
         padding: 1.5rem 2rem;
     }
 
-    .index-text h1,
-    .index-text h2 {
-        font-size: 2.5rem;
-        max-width: 630px;
-        min-width: 450px;
+    .index-text h2{
+        font-size: 1.5rem;
     }
-
 }
 
 @media (max-width: 450px) {
-
-    .index-text h1,
-    .index-text h2 {
-        font-size: 2.0rem;
-        max-width: 450px;
-        min-width: 270px;
-    }
 
     .foot-list {
         flex-direction: column;
