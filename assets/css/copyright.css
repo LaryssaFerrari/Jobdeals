@@ -145,7 +145,7 @@ header {
     font-size: clamp(1rem, 2.5vw + 0.1rem, 1.5rem);
     line-height: 28px;
     margin-bottom: 2rem;
-    text-align: center;
+    text-align: justify;
 }
 
 /* ---rodapé--- */
