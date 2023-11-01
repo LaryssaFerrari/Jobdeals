@@ -207,13 +207,6 @@ footer {
 
 /* ---media query--- */
 
-@media (max-width: 1366px) {
-
-    .index-text {
-        width: 90%;
-    }
-}
-
 @media (max-width: 1150px) {
     .nav-bar {
         padding: 1.5rem 4rem;

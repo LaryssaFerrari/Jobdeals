@@ -128,15 +128,13 @@ header {
 
 .index-text h1 {
     font-weight: 500;
-    font-size: clamp(1.6rem, 3.0vw + 0.1rem, 3.5rem);
+    font-size: clamp(1.9rem, 3.0vw + 0.1rem, 3.5rem);
     line-height: clamp(1.9rem, 8vw + 0.1rem, 4rem);
     margin-bottom: 1rem;
-    max-width: 650px;
-    min-width: 650px;
     text-align: center;
+    display: flex;
+    justify-content: center;
     color: #EBEDF2;
-    font-weight: 450 x 256;
-    margin: 1;
 
 }
 
@@ -204,14 +202,6 @@ footer {
 
 /* ---media query--- */
 
-@media (max-width: 2000px) and (min-width: 1000px) {
-    .index-text h1 {
-        font-size: 3.5rem;
-        max-width: 2000px;
-        min-width: 1000px;
-    }
-}
-
 @media (max-width: 1366px) {
 
     .index-text {
@@ -271,13 +261,6 @@ footer {
     .open {
         display: block;
     }
-
-    .index-text h1 {
-        font-size: 3.5rem;
-        max-width: 1150px;
-        min-width: 920px;
-    }
-
 }
 
 @media (max-width: 920px) {
@@ -298,12 +281,6 @@ footer {
     .foot-list {
         margin: 1em 0 2em 0;
     }
-
-    .index-text h1 {
-        font-size: 3.0rem;
-        max-width: 920px;
-        min-width: 630px;
-    }
 }
 
 @media (max-width: 630px) {
@@ -315,19 +292,16 @@ footer {
     .nav-bar {
         padding: 1.5rem 2rem;
     }
-
-    .index-text h1 {
-        font-size: 2.5rem;
-        max-width: 630px;
-        min-width: 450px;
-    }
 }
 
 @media (max-width: 450px) {
+
+    .index-text {
+        padding: 20px 20px;
+    }
+
     .index-text h1 {
         font-size: 1.5rem;
-        max-width: 270px;
-        min-width: 270px;
     }
 
     .foot-list {
