@@ -103,7 +103,7 @@ header {
 
 /* ---conteudo da pagina--- */
 
-.container-fundo{
+.background-radiant {
     width: 90%;
     height: 70%;
     background: radial-gradient(99.68% 185.51% at 2.42% 4.03%, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0) 100%), #584AB0;
@@ -128,7 +128,7 @@ header {
     margin: auto 5px;
 }
 
-.index-text {
+.helpcenter-text {
     margin: 5rem 4rem;
     width: 40%;
     height: 40rem;
@@ -143,7 +143,7 @@ header {
     box-shadow: 0px 10px 40px #171044;
 }
 
-.index-text-titulo h1 {
+.helpcenter-title h1 {
     font-weight: 500;
     font-size: 3rem;
     line-height: clamp(1.9rem, 8vw + 0.1rem, 4rem);
@@ -152,7 +152,7 @@ header {
     color: #EBEDF2;
 }
 
-.index-text h2 {
+.helpcenter-text h2 {
     font-weight: 500;
     font-size: 2rem;
     line-height: clamp(1.9rem, 8vw + 0.1rem, 4rem);
@@ -208,7 +208,7 @@ p {
     text-align: justify;
 }
 
-.index-contact-us {
+.helpcenter-aside {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -217,7 +217,7 @@ p {
     border-radius: 50%;
 }
 
-.index-contact-us h2{
+.helpcenter-aside h2{
     width: 70%;
     font-weight: 500;
     font-size: 2rem;
@@ -227,13 +227,13 @@ p {
     margin-bottom: 50px;
 }
 
-.index-image {
+.helpcenter-image {
     width: 42rem;
     height: 42rem;
     display: flex;
 }
 
-.index-image-contact{
+.helpcenter-contact{
     width: 50%;
     display: flex;
     flex-direction: column;
@@ -241,7 +241,7 @@ p {
     align-items: center;
 }
 
-.index-image img {
+.helpcenter-image img {
     margin: 2rem;
     display: flex;
     align-items: end;
@@ -311,20 +311,23 @@ p {
     text-align: center;
 }
 
-.botao {
+.helpcenter-contact button {
     border: none;
-    width: 50%;
     height: 50px;
     background-color: #584AB0;
     padding: 0.4rem 1rem;
     margin-top: 30px;
     border-radius: 8px;
     cursor: pointer;
+}
+
+.helpcenter-contact a button {
     color: #EBEDF2;
     text-decoration: none;
     font-weight: 800;
     font-size: 22px;
     line-height: 37px;
+    text-align: center;
 }
 
 /* ---rodapé--- */
@@ -385,22 +388,22 @@ footer {
 /* ---media query--- */
 
 @media (max-width: 1460px){
-    .index-text {
+    .helpcenter-text {
         margin: 2.5rem 2rem;
         width: 40%;
         padding: 35px 30px;
     }
 
-    .index-image img {
+    .helpcenter-image img {
         margin-left: 50px;
         width: 30rem;
     }
 
-    .index-image-contact{
+    .helpcenter-contact{
         width: 70%;
     }
 
-    .index-image-contact h2{
+    .helpcenter-contact h2{
         margin: 0;
     }
 }
@@ -460,11 +463,11 @@ footer {
         display: block;
     }
 
-    .index-image {
+    .helpcenter-image {
         display: none;
     }
 
-    .index-image-contact{
+    .helpcenter-contact{
         margin: 7rem 0;
     }
 
@@ -472,7 +475,7 @@ footer {
         flex-direction: column;
     }
 
-    .index-text{
+    .helpcenter-text{
         width: 80%;
         height: auto;
     }
@@ -509,11 +512,11 @@ footer {
         width: 70%;
     }
     
-    .index-image-contact{
+    .helpcenter-contact {
         width: 90%;
     }
 
-    .index-image-contact h2{
+    .helpcenter-contact h2{
         font-size: 1.5rem;
     }
 
@@ -524,7 +527,7 @@ footer {
         flex-direction: column;
     }
     
-    .index-text h2 {
+    .helpcenter-text h2 {
         margin-bottom: 20px;
     }
 }

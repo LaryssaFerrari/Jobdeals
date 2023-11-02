@@ -103,7 +103,7 @@ header {
 
 /* ---conteudo da pagina--- */
 
-.texto{
+.container{
     width: 100%;
     height: 80%;
     display: flex;
@@ -111,7 +111,7 @@ header {
     padding: 1rem;
 }
 
-.index-text {
+.privacy-text {
     margin: 3rem 0;
     width: 90%;
     display: flex;
@@ -125,7 +125,7 @@ header {
     box-shadow: 0px 10px 40px #171044;
 }
 
-.index-text h1 {
+.privacy-text h1 {
     font-weight: 500;
     font-size: clamp(1.9rem, 3.0vw + 0.1rem, 3.5rem);
     line-height: clamp(1.9rem, 8vw + 0.1rem, 4rem);
@@ -136,8 +136,8 @@ header {
     color: #EBEDF2;   
 }
 
-.index-text p,
-.index-text ul {
+.privacy-text p,
+.privacy-text ul {
     font-weight: 400;
     font-size: clamp(1rem, 2.5vw + 0.1rem, 1.5rem);
     line-height: 28px;
@@ -292,11 +292,11 @@ footer {
 }
 
 @media (max-width: 450px) {
-    .index-text {
+    .privacy-text {
         padding: 20px 20px;
     }
 
-    .index-text h1 {
+    .privacy-text h1 {
         font-size: 1.5rem;
     }
 

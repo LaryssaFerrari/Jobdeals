@@ -111,7 +111,7 @@ header {
     padding: 1rem;
 }
 
-.index-text {
+.copyright-text {
     margin: 3rem 0;
     width: 90%;
     display: flex;
@@ -126,7 +126,7 @@ header {
     box-shadow: 0px 10px 40px #171044;
 }
 
-.index-text h1 {
+.copyright-text h1 {
     font-weight: 500;
     font-size: clamp(1.9rem, 3.0vw + 0.1rem, 3.5rem);
     line-height: clamp(1.9rem, 8vw + 0.1rem, 4rem);
@@ -138,7 +138,7 @@ header {
 
 }
 
-.index-text p {
+.copyright-text p {
     font-weight: 400;
     font-size: clamp(1rem, 2.5vw + 0.1rem, 1.5rem);
     line-height: 28px;
@@ -204,7 +204,7 @@ footer {
 
 @media (max-width: 1366px) {
 
-    .index-text {
+    .copyright-text {
         width: 90%;
     }
 }
@@ -296,11 +296,11 @@ footer {
 
 @media (max-width: 450px) {
 
-    .index-text {
+    .copyright-text {
         padding: 20px 20px;
     }
 
-    .index-text h1 {
+    .copyright-text h1 {
         font-size: 1.5rem;
     }
 
