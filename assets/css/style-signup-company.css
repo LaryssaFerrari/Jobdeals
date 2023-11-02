@@ -78,11 +78,6 @@ body {
     align-items: center;
 }
 
-.index a img {
-    width: 2rem;
-    color: #EBEDF2;
-}
-
 .index a:hover {
     color: #7765F0;
     transition: .2s;
@@ -244,29 +239,6 @@ body {
     background-color: #7765F0;
     transition: .2s;
 }
-
-.signup-google button {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #EBEDF2;
-
-}
-
-.signup-google button a {
-    display: flex;
-    text-align: center;
-    text-decoration: none;
-    font-size: 1.1rem;
-    font-weight: 500;
-    color: rgba(0, 0, 0, 0.76);
-}
-
-.signup-google button a img {
-    padding-right: 1rem;
-}
-
-
 
 @media (max-width: 1250px) {
     .container {
