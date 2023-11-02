@@ -35,7 +35,7 @@ body{
     background: radial-gradient(97.93% 144.94% at 3.19% 11.52%, rgba(0, 0, 0, 0.7) 0%, rgba(0, 0, 0, 0.035) 100%)
 }
 
-.main-login{
+.container{
     width: 1200px;
     height: 700px;
     display: flex;
@@ -175,7 +175,7 @@ body{
 }
 
 @media only screen and (max-width: 600px){
-    .main-login{
+    .container{
         flex-direction: column;
     }
     .left-login > h1{

@@ -202,13 +202,6 @@ footer {
 
 /* ---media query--- */
 
-@media (max-width: 1366px) {
-
-    .copyright-text {
-        width: 90%;
-    }
-}
-
 @media (max-width: 1150px) {
     .nav-bar {
         padding: 1.5rem 4rem;
@@ -292,6 +285,11 @@ footer {
     .nav-bar {
         padding: 1.5rem 2rem;
     }
+
+    .index-buttons {
+        flex-direction: column;
+    }
+
 }
 
 @media (max-width: 450px) {
